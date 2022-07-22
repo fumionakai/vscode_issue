@@ -9,3 +9,4 @@ def get_formatted_date(t=None):
     d = t.strftime('%Y年%m月%d日（%a）')
     return d
 
+print(get_formatted_date())
